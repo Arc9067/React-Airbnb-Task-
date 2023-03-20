@@ -2,7 +2,7 @@ import Nav from "./Components/Nav";
 import Image from "./Components/Image";
 import Test from "./Components/Test";
 import Person from "./Components/Person";
-import Data from "./Components/data";
+import Data from "../public/data";
 import "./App.css";
 
 function App() {
