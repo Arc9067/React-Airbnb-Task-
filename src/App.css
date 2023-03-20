@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container > img {
+  max-width: 6rem;
+}
+
+.image-div {
+  /* background-color: red; */
+  margin-top: 20px;
+}
+
+.image-div > img {
+  width: 90%;
+  max-width: 35rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-div {
+  width: 100%;
+  /* background-color: red; */
+  padding: 10px 15px;
+}
+
+.text-div h1 {
+  text-transform: capitalize;
+  line-height: 110%;
+}
+
+.text-div p {
+  max-width: 28rem;
+}
+
+.person-div {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  place-items: center;
+  gap: 10px 20px;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.person-card img {
+  width: 176px;
+  height: 235px;
+  border-radius: 15px;
+}
+.person-card .btn {
+  outline: 0;
+  border: 0;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-weight: 400;
+  font-size: 10.24px;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+.message-div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.message-div i {
+  color: #fe395c;
+  font-size: 10px;
+  display: inline;
+}
+.message-div .messageInfo {
+  display: inline;
+  font-size: 12px;
+}
+.message-div .messageInfo span {
+  color: #918e9b;
+}
+.message-div .ProductName {
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+  font-weight: 300;
+}
+.message-div .price {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 13px */
+  color: #222222;
+}
+.message-div .price span {
+  color: #918e9b;
+  font-weight: 400;
+}/*# sourceMappingURL=App.css.map */
